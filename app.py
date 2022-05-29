@@ -137,6 +137,11 @@ month_slide = dcc.RangeSlider(1, 12,
 
 # ----------------------------------------------------------------------------------------------------------------------
 # App layout
+
+app = dash.Dash(_name_)
+
+server = app.server
+
 app.layout = dbc.Container([
 
     # 1st Row - header
