@@ -1,0 +1,11 @@
+gunicorn
+asyncio
+dash
+plotly
+pandas
+numpy
+dash_bootstrap_components
+base64
+bubbly
+textwrap
+datetime
