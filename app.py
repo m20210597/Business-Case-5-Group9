@@ -138,7 +138,7 @@ month_slide = dcc.RangeSlider(1, 12,
 # ----------------------------------------------------------------------------------------------------------------------
 # App layout
 
-app = dash.Dash(_name_)
+app = dash.Dash(__name__)
 
 server = app.server
 
