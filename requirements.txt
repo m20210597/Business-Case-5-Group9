@@ -6,5 +6,3 @@ pandas
 numpy
 dash_bootstrap_components
 bubbly
-textwrap
-datetime
