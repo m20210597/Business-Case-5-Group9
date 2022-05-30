@@ -201,7 +201,7 @@ model = SARIMAX(
 )
 
 # training the model
-results = model.fit()
+results = model.fit(disp=0)
 
 # get predictions
 predictions = results.predict(start= len(train_y), end= len(train_y)+len(test_y), exog = test_X)
@@ -281,7 +281,7 @@ model = SARIMAX(
 )
 
 # training the model
-results = model.fit()
+results = model.fit(disp=0)
 
 # get predictions
 predictions = results.predict(start= len(train_y), end= len(train_y)+len(test_y), exog = test_X)
@@ -366,7 +366,7 @@ model = SARIMAX(
 )
 
 # training the model
-results = model.fit()
+results = model.fit(disp=0)
 
 # get predictions
 predictions = results.predict(start= len(train_y), end= len(train_y)+len(test_y), exog = test_X)
@@ -450,7 +450,7 @@ model = SARIMAX(
 )
 
 # training the model
-results = model.fit()
+results = model.fit(disp=0)
 
 # get predictions
 predictions = results.predict(start= len(train_y), end= len(train_y)+len(test_y), exog = test_X)
@@ -533,7 +533,7 @@ model = SARIMAX(
 )
 
 # training the model
-results = model.fit()
+results = model.fit(disp=0)
 
 # get predictions
 predictions = results.predict(start= len(train_y), end= len(train_y)+len(test_y), exog = test_X)
@@ -615,7 +615,7 @@ model = SARIMAX(
 )
 
 # training the model
-results = model.fit()
+results = model.fit(disp=0)
 
 # get predictions
 predictions = results.predict(start= len(train_y), end= len(train_y)+len(test_y), exog = test_X)
@@ -697,7 +697,7 @@ model = SARIMAX(
 )
 
 # training the model
-results = model.fit()
+results = model.fit(disp=0)
 
 # get predictions
 predictions = results.predict(start= len(train_y), end= len(train_y)+len(test_y), exog = test_X)
@@ -778,7 +778,7 @@ model = SARIMAX(
 )
 
 # training the model
-results = model.fit()
+results = model.fit(disp=0)
 
 # get predictions
 predictions = results.predict(start= len(train_y), end= len(train_y)+len(test_y), exog = test_X)
@@ -860,7 +860,7 @@ model = SARIMAX(
 )
 
 # training the model
-results = model.fit()
+results = model.fit(disp=0)
 
 # get predictions
 predictions = results.predict(start= len(train_y), end= len(train_y)+len(test_y), exog = test_X)
@@ -942,7 +942,7 @@ model = SARIMAX(
 )
 
 # training the model
-results = model.fit()
+results = model.fit(disp=0)
 
 # get predictions
 predictions = results.predict(start= len(train_y), end= len(train_y)+len(test_y), exog = test_X)
